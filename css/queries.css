@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+
+	.content-menu {
+		width: 100%;
+	}
+
+	.title {
+	    top: 4.5em;
+	    left: 2em;
+	}
+
+	.title h1 {
+    	font-size: 3em;
+	}
+
+	.title .study {
+    	font-size: 1.8em;
+	}
+
+	.icon {
+    	padding-top: 1.5em;
+	}
+
+	.name {
+		height: 55vh;
+	}
+
+	.gif {
+		height: 25vh;
+	}
+
+	.image {
+		width: 180px;
+    	height: 180px;
+	}
+
+	.descrip {
+    	font-size: 1em;
+	}
+
+	.about {
+		height: 118vh;
+	}
+
+	.pines {
+		width: 24%;
+	}
+
+	.pd-top-skills {
+	    padding-top: 3em;
+	}
+
+	.text-sk {
+	    font-size: 1em;
+	}
+
+	.skills {
+		height: 55vh;
+	}
+}
+
+@media (max-width: 991px) {
+	
+}
