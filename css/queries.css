@@ -57,6 +57,66 @@
 	.skills {
 		height: 55vh;
 	}
+
+	.remove {
+		font-size: 2em;
+	}
+
+	.decoration li a {
+	    color: #000;
+	    font-size: 2em;
+	}
+
+	.contact {
+    	font-size: 2.5em;
+	}
+
+	.mail {
+		width: 20%;
+	}
+
+	.correo {
+		text-align: center;
+		padding-top: 2em;
+	}
+
+	.footer {
+		padding-top: 2em;
+		height: 70vh;
+	}
+
+	.pd-fot {
+ 	   padding-top: 3em;
+	}
+
+	.right {
+		text-align: center;
+	}
+
+	.left {
+		text-align: center;
+	}
+
+	.padding {
+		padding-top: 2em;
+	}
+
+	.pdding {
+		padding-top: 2em;
+		text-align: center;
+	}
+
+	.projects {
+		height: 105vh;
+	}
+
+	.trabajos {
+		width: 100%;
+	}
+
+	.top-row {
+		padding-top: 2.5em;
+	}
 }
 
 @media (max-width: 991px) {

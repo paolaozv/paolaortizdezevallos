@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+h3 {
+    margin: 0;
+}
+
 .pacific {
     font-family: "Pacifico", cursive;
 }
@@ -20,6 +24,10 @@
 
 .verde {
     color: #16FFBD;
+}
+
+.black {
+    color: #000;
 }
 
 /* Header */
@@ -168,34 +176,35 @@
 /* Skills */
 
 .skills {
-    background-color: #FFF;
+    background-color: #F8809E;
     width: 100%;
     height: 60vh;
     position: relative;
+    padding-top: 2.4em;
 }
 
 .html {
-    width: 56%;
+    width: 34%;
 }
 
 .css {
-    width: 58%;
+    width: 36%;
 }
 
 .bootstrap {
-    width: 52%;
+    width: 30%;
 }
 
 .git {
-    width: 64%;
+    width: 42%;
 }
 
 .js {
-    width: 61%;
+    width: 39%;
 }
 
 .jquery {
-    width: 58%;
+    width: 35%;
 }
 
 .pd-top-skills {
@@ -210,22 +219,14 @@
     margin-bottom: 2em;
 }
 
-/* Projects */
-
-.projects {
-    background-color: #16FFBD;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
 /* Footer */
 
 .footer {
     background-color: #080D14;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     padding-top: 5em;
+    position: relative;
 }
 
 .footer h3 {
@@ -233,11 +234,13 @@
 }
 
 .contact {
-    font-size: 4.5em;
+    font-size: 3.5em;
 }
 
 .cv {
     background-color: #FFF;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
 }
 
 .tamanio {
@@ -251,6 +254,31 @@
 
 .mail {
     width: 10%;
+}
+
+.icon-footer {
+    width: 28%;
+}
+
+.icon-git {
+    width: 100%;
+    margin-left: -4em;
+}
+
+.correo {
+    padding-top: 1.5em;
+}
+
+.pd-fot {
+    padding-top: 5em;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
 }
 
 /* Menú */
@@ -267,7 +295,10 @@
     height: 100vh;
     width: 100%;
     background-color: #16FFBD;
-    position: relative;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    overflow-y: hidden;
 }
 
 .inline {
@@ -281,23 +312,8 @@
     position: absolute;
 }
 
-.idiomas {
-    padding-top: 2.5em;
-    font-size: 1.5em;
-}
-
-.esp {
-    color: #000;
-}
-
-.esp:hover {
-    color: #F8809E;
-    text-decoration: none;
-}
-
-.eng:hover {
-    text-decoration: none;
-    color: #F8809E;
+.lista {
+    padding-top: 5em;
 }
 
 .lista .decoration {
@@ -330,8 +346,123 @@
 
 .puntos {
     font-size: 2.8em;
+    color: #000;
 }
 
 .remove:hover {
     color: #F8809E;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Projects */
+
+.projects {
+    background-color: #16FFBD;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.top {
+    padding-top: 4em;
+}
+
+.boton {
+    background-color: #F8809E;
+    font-family: "Lato", sans-serif;
+}
+
+.mockup {
+    width: 30%;
+}
+
+.hi {
+    width: 30%;
+}
+
+.lyft {
+    width: 45%;
+}
+
+.code {
+    background-color: #F8809E;
+    color: #333;
+}
+
+.padding {
+    padding-top: 3em;
+}
+
+.pdding {
+    padding-top: 7em;
+}
+
+.info {
+    display: none;
+    height: 180px;
+}
+
+.trabajos:hover .info {
+    display: block;
+}
+
+.trabajos {
+    width: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.der {
+    margin-right: 0;
+}
+
+.izq {
+    margin-left: 0;
+}
+
+.danza {
+    background-image: url("../img/escuela-de-danza.png");
+}
+
+.comunidad {
+    background-image: url("../img/comunidad-sostenible.png");
+}
+
+.blog {
+    background-image: url("../img/responsive-blog.png");
+}
+
+.user {
+    background-image: url("../img/user-testing.png");
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+
+.to-do {
+    background-image: url("../img/to-do-app.png");
+}
+
+.whatsapp {
+    background-image: url("../img/whatsapp.png");
+}
+
+.trello {
+    background-image: url("../img/trello.png");
+}
+
+.top-row {
+    padding-top: 4.5em;
+}
+
+.top h3 {
+    margin-bottom: 0.8em;
 }

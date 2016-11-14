@@ -17,13 +17,13 @@
 		<header class="header" id="home">
 			<nav class="nav-corner">
 				<div class="content-menu">
-					<span class="glyphicon glyphicon-menu-hamburger menu"></span>
+					<span class="glyphicon glyphicon-menu-hamburger menu" id="menu"></span>
 				</div>
 			</nav>
 			<div class="name"></div>
 			<div class="title">
 				<h1 class="pacific">Paola Ortiz de Zevallos</h1>
-				<h4 class="study raleway txt">Front End Developer</h4>
+				<h4 class="study raleway txt">Desarrolladora Front End</h4>
 			</div>
 			<div class="gif">
 				<div class="text-center icon">
@@ -37,8 +37,8 @@
 					<div class="image"></div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 text-center pd-l">
-					<h3 class="raleway rosado">ABOUT ME</h3>
-					<p class="lato descrip">Hi, I'm Paola Ortiz de Zevallos and I am 25 years old, since I was very small I like math, I enjoy solving logic problems, in my free time I like to read, walk with my pet. Thanks to Laboratoria I discovered my passion for programming, also to be self-taught; I love what I do and I enjoy working in team.</p>
+					<h3 class="raleway rosado">SOBRE MÍ</h3>
+					<p class="lato descrip">Hola, soy Paola Ortiz de Zevallos y tengo 25 años, desde muy pequeña me gusta la matemática, disfruto solucionando problemas lógicos, en mi tiempo libre me gusta leer y caminar con mi mascota. Gracias a Laboratoria descubrí mi pasión por la programación, también para ser autodidacta; me encanta lo que hago y me gusta trabajar en equipo.</p>
 					<div class="pin">
 						<h4 class="raleway rosado badges">Laboratoria's Badges</h4>
 						<img src="img/proactiva.png" class="pines">
@@ -49,7 +49,7 @@
 			</div>
 		</section>
 		<section id="skills" class="skills">
-			<h3 class="text-center raleway">SKILLS</h3>
+			<h3 class="text-center raleway">HABILIDADES</h3>
 			<div class="container-fluid">
 				<div class="row pd-top-skills">
 					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center">
@@ -80,51 +80,157 @@
 			</div>
 		</section>
 		<section id="projects" class="container-fluid projects">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h3 class="raleway">Projects</h3>
+			<div class="top text-center">
+				<h3 class="raleway">PROYECTOS</h3>
+				<button type="button" class="boton btn lato" id="mobile">MOBILE APP</button>
+				<button type="button" class="boton btn lato" id="js">JAVASCRIPT</button>
+				<button type="button" class="boton btn lato" id="html">HTML&CSS</button>
+			</div>
+			<div id="app" class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+					<p class="lato">Aplicación móvil para solicitar taxis</p>
+					<img src="img/lyft-m.png" class="mockup"><br>
+					<a href="https://github.com/paolaozv/lyft" target="_blank" class="btn lato code">Ver Código</a>
+					<a href="https://paolaozv.github.io/lyft/" target="_blank" class="btn lato code">Ver Demo</a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pdding">
+					<img src="img/lyft.gif" alt="Lyft" class="lyft">
+				</div>
+			</div>
+			<div class="oculto top-row" id="javascript">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos twitter der">
+							<div class="info">
+								<h4 class="lato">Twitter</h4>
+								<h5 class="tools lato">Herramientas: HTML5, CSS3, Javascript</h5>
+								<a href="https://github.com/paolaozv/twitter" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/twitter" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos to-do izq">
+							<div class="info">
+								<h4 class="">To Do App</h4>
+								<h5 class="tool">Herramientas: HTML5, CSS3, Materialize, Javascript</h5>
+								<h5 class="tools">Página responsive</h5>
+								<a href="https://github.com/paolaozv/to-do-app" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/to-do-app" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos whatsapp der">
+							<div class="info">
+								<h4 class="">Whatsapp</h4>
+								<h5 class="tools">Herramientas: Javascript</h5>
+								<a href="https://github.com/paolaozv/whatsapp-web" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/whatsapp-web" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos trello izq">
+							<div class="info">
+								<h4 class="">Trello</h4>
+								<h5 class="tools">Herramientas: HTML5, CSS3, Bootstrap, Javascript</h5>
+								<a href="https://github.com/paolaozv/trello" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/trello" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="htmlCss" class="oculto top-row">
+				<div class="row pd-pag">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos danza der">
+							<div class="info">
+								<h4 class="texto title-work">Escuela de Danza</h4>
+								<h5 class="tools">Herramientas: HTML5, CSS3</h5>
+								<a href="https://github.com/paolaozv/escuela-de-danza" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/escuela-de-danza" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos comunidad izq">
+							<div class="info">
+								<h4 class="">Comunidad Sostenible</h4>
+								<h5 class="tools">Herramientas: HTML5, CSS3</h5>
+								<a href="https://github.com/paolaozv/comunidad-sostenible" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/comunidad-sostenible" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos blog der">
+							<div class="info">
+								<h4 class="">Responsive Blog</h4>
+								<h5 class="tool">Herramientas: HTML5, CSS3, Grid System</h5>
+								<h5 class="tools">Página responsive</h5>
+								<a href="https://github.com/paolaozv/responsive-blog" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/responsive-blog" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<div class="trabajos user izq">
+							<div class="info">
+								<h4 class="">User Testing</h4>
+								<h5 class="tool">Herramientas: HTML5, CSS3, Bootstrap</h5>
+								<h5 class="tools">Página responsive</h5>
+								<a href="https://github.com/paolaozv/user-testing" target="_blank" class="links btn">Ver Código</a>
+								<a href="https://paolaozv.github.io/user-testing" target="_blank" class="links btn">Ver Demo</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<footer id="contact" class="footer container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<h3 class="raleway verde contact text-right"><span>CONTACT</span><br><span>ME!</span></h3>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+					<h3 class="raleway verde contact right">CONTACTO</h3>
+					<img src="img/mail.png" class="mail">
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<img src="img/mail.png" class="mail"><br>
-					<a href="mailto:paolaozv@gmail.com" class="verde lato tamanio">paolaozv@gmail.com</a><br>
-					<a href="docs/cv-paola.pdf" download class="btn cv verde lato">Download CV</a>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 correo">
+					<a href="docs/cv-paola.pdf" download class="btn cv verde lato">Descarga CV</a><br>
+					<a href="mailto:paolaozv@gmail.com" class="verde lato tamanio">paolaozv@gmail.com</a>
 				</div>
 			</div>
-
-				
+			<div class="text-center row pd-fot">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+					<a href="https://pe.linkedin.com/in/paola-ortiz-de-zevallos" target="_blank" class="hvr-pop"><img src="img/in2.png" class="icon-footer"></a>
+					<a href="https://github.com/paolaozv" target="_blank" class="hvr-pop"><img src="img/github2.png" class="icon-git"></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 left">
+					<h4 class="pacific verde">Paola Ortiz de Zevallos</h4>
+				</div>
+			</div>
 		</footer>
-		<div class="desplegable text-center">
+		<div class="desplegable text-center oculto">
 			<span class="glyphicon glyphicon-remove remove"></span>
-			<div class="idiomas text-center">
-				<p class="inline raleway"><a href="index-2.html" class="esp">ESPAÑOL</a></p>
-				<span>/</span>
-				<p class="inline raleway"><a href="index.html" class="rosado eng">ENGLISH</a></p>
-			</div>
 			<div class="lista text-center">
 				<ul class="decoration">
-					<li><a href="#home" class="raleway">HOME</a></li>
-					<li><a href="#about" class="raleway">ABOUT</a></li>
-					<li><a href="#skills" class="raleway">SKILLS</a></li>
-					<li><a href="#projects" class="raleway">PROJECTS</a></li>
-					<li><a href="#contact" class="raleway">CONTACT</a></li>
+					<li><a href="#home" class="raleway" id="liUno">INICIO</a></li>
+					<li><a href="#about" class="raleway" id="liDos">SOBRE MÍ</a></li>
+					<li><a href="#skills" class="raleway" id="liTres">HABILIDADES</a></li>
+					<li><a href="#projects" class="raleway" id="liCuatro">PROYECTOS</a></li>
+					<li><a href="#contact" class="raleway" id="liCinco">CONTACTO</a></li>
 				</ul>
 			</div>
 			<span class="glyphicon glyphicon-option-horizontal puntos"></span>
 			<div class="text-center redes">
-				<a href="https://pe.linkedin.com/in/paola-ortiz-de-zevallos" target="_blank" class="hvr-pop"> <img src="img/in.png" class="icon-menu"></a>
+				<a href="https://pe.linkedin.com/in/paola-ortiz-de-zevallos" target="_blank" class="hvr-pop"><img src="img/in.png" class="icon-menu"></a>
 				<a href="https://github.com/paolaozv" target="_blank" class="hvr-pop"><img src="img/github.png" class="icon-menu"></a>
 			</div>
 		</div>
-		
-		
-	
 		<script type="text/javascript" src="js/vendor/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 		<!--App-->
